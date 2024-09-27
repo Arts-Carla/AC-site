@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header > h1{
+    font-family: "Grandstander", arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 22px;
+    background-color: #083D77;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: 'Open Sans', helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div{
+    background-color: rgb(14, 196, 196);
+    display: inline-block;
+    width: 260px;
+    height: 305px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+div > img{
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.divc{
+    margin-left: 10px;
+}
+
+footer{
+    height: 50px;
+    background-color: #083D77;
+}
+
+.bdv{
+    padding-top: 4px;
+}
+
+#all{
+    text-align: center;
+}
